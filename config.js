@@ -29,5 +29,7 @@ var config = {
         light_candle: "蜡烛？",
         wish_message: "生日快乐～",
         story: "A MESSAGE FOR YOU"
-    }
+    },
+
+    loveText: '改代码改了一晚上的Fzc'
 };
