@@ -25,6 +25,6 @@ $(function () {
 });
 
 $(function () {
-    $('#love_text').append(config.loveText)
+    $('#love_text').append(config.loveText);
     $('#love_text').css('display', 'block');
 });
