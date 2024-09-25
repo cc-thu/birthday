@@ -150,13 +150,13 @@ $('document').ready(function(){
 		$('#b5').attr('id','b55')
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
-		$('#b11').animate({top:240, left: 0},500);
-		$('#b22').animate({top:240, left: vw},500);
-		$('#b33').animate({top:240, left: vw*2},500);
-		$('#b44').animate({top:240, left: vw*3},500);
-		$('#b55').animate({top:240, left: vw*4},500);
-		$('#b66').animate({top:240, left: vw*5},500);
-		$('#b77').animate({top:240, left: vw*6},500);
+		$('#b11').animate({top:200, left: 0},500);
+		$('#b22').animate({top:220, left: vw},500);
+		$('#b33').animate({top:200, left: vw*2},500);
+		$('#b44').animate({top:220, left: vw*3},500);
+		$('#b55').animate({top:200, left: vw*4},500);
+		$('#b66').animate({top:220, left: vw*5},500);
+		$('#b77').animate({top:200, left: vw*6},500);
 		$('.balloons').css('opacity','0.8');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
