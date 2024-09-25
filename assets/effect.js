@@ -140,7 +140,7 @@ $('document').ready(function(){
 
 		
 	$('#wish_message').click(function(){
-		 vw = $(window).width()/7;
+		 vw = $(window).width()/8;
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
@@ -154,9 +154,9 @@ $('document').ready(function(){
 		$('#b22').animate({top:240, left: vw},500);
 		$('#b33').animate({top:240, left: vw*2},500);
 		$('#b44').animate({top:240, left: vw*3},500);
-		$('#b55').animate({top:240, right: vw*2},500);
-		$('#b66').animate({top:240, right: vw},500);
-		$('#b77').animate({top:240, right: 0},500);
+		$('#b55').animate({top:240, left: vw*4},500);
+		$('#b66').animate({top:240, left: vw*5},500);
+		$('#b77').animate({top:240, left: vw*6},500);
 		$('.balloons').css('opacity','0.8');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
