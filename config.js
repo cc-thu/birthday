@@ -51,5 +51,5 @@ var config = {
         story: "A MESSAGE FOR YOU"
     },
 
-    loveText: '改一晚上这个代码的Fzc'
+    loveText: '这个代码改了好几天的Fzc'
 };
