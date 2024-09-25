@@ -1107,12 +1107,15 @@ audio {
 }
 #b5,#b55{
 	background-image: url('b5.png');
+	width: 15%;
 }
 #b6,#b66{
 	background-image: url('b6.png');
+	width: 15%;
 }
 #b7,#b77{
 	background-image: url('b7.png');
+	width: 15%;
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
